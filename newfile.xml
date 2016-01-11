@@ -1,0 +1,50 @@
+<icecast>
+    <location>zxc</location>
+    <admin>sdf</admin>
+    <hostname>cvb</hostname>
+    <limits>
+        <clients>sdf</clients>
+        <sources>wqe</sources>
+        <queue-size>524288</queue-size>
+        <client-timeout>30</client-timeout>
+        <header-timeout>15</header-timeout>
+        <source-timeout>10</source-timeout>
+        <burst-on-connect>1</burst-on-connect>
+        <burst-size>65535</burst-size>
+    </limits>
+    <authentication>
+        <source-password>sdf</source-password>
+        <relay-password>dfg</relay-password>
+        <admin-user>xcv</admin-user>
+        <admin-password>sdf</admin-password>
+    </authentication>
+    <directory>
+        <yp-url-timeout>15</yp-url-timeout>
+        <yp-url>http://dir.xiph.org/cgi-bin/yp-cgi</yp-url>
+    </directory>
+    <listen-socket>
+        <port>wqe</port>
+    </listen-socket>
+    <http-headers>
+        <header name="Access-Control-Allow-Origin" value="*" />
+    </http-headers>
+    <mount type="normal">
+        <mount-name>/sdf</mount-name>
+       <username>dfg</username>
+        <password>xcv</password>
+        <max-listeners>1</max-listeners>
+    </mount>
+    <fileserve>1</fileserve>
+    <paths>
+        <logdir>./log</logdir>
+        <webroot>./web</webroot>
+        <adminroot>./admin</adminroot>
+        <alias source="/" destination="/status.xsl"/>
+    </paths>
+    <logging>
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+        <loglevel>3</loglevel>
+        <logsize>10000</logsize> 
+    </logging>
+</icecast>

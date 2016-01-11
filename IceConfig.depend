@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1452520702 source:d:\vgtu\oss\iceconfig\iceconfig\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
